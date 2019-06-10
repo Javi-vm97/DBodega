@@ -1,0 +1,201 @@
+
+
+body
+{
+  background-image: url(../imagenes/symphony.png);
+  margin: 10px auto;
+  width: 90%;
+}
+
+header>h1
+{
+	letter-spacing: 5px; /*Espacio entre letras*/
+	text-transform: uppercase;/*Transformación del texto a mayúsculas*/
+	font-weight:bold;/*Fuente en negritas*/
+  text-align: center;/*Alineación del texto*/
+  text-shadow:rgba(240, 169, 13, 0.75) 6px 6px 8px; /* los tres números indican distancia horizontal, vertical y difuminado*/
+
+}
+.logo-left
+{
+	float:left;
+	padding: 50px 0px 0px 20px; /*Superior, derecho, inferior, izquierdo*/
+	height: 120px;
+}
+header
+{
+  width:100%; /* Establecemos que el header abarque el 100% del documento */
+  overflow:hidden; /* Eliminamos errores de float */
+  background-color:#180EF1;
+  margin-bottom:0px;
+  padding: 0px;
+  border-radius: 25px 25px 0px 0px; /*superior, derecho, inferior, izquierdo*/
+  border-style: none;
+}
+.contenedor
+{
+  padding: 10px 20px 10px 20px; /*Superior, derecho, inferior, izquierdo*/
+	background: #F89B32;
+	border-radius: 2em; /* redondea el borde*/
+  box-shadow: 0px 5px 3px rgba(232, 132, 14, 0.83);
+
+}
+
+nav
+{
+  display: block;
+  text-align: center;
+}
+nav ul
+{
+	list-style: none;
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 2px;
+    margin-top: 0.2em;
+  }
+section
+{
+	float: left;
+	width: 100%;
+	text-align:justify;
+	margin-top: 10px;
+}
+article
+{
+	margin-bottom: 30px;
+	padding: 30px;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #180EF1;
+}
+.boton
+{
+  background-color: #180EF1;
+  color:white;
+  display: inline-block;
+  font-size: 1em;
+  margin: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 140px;
+  text-decoration: none;
+  box-shadow: 0px 3px 5px #180EF1;
+}
+.boton.redondo
+{
+  border-radius: 30px;
+}
+.boton.violeta
+{
+  background-color: #180EF1;
+	box-shadow: 0px 3px 5px #180EF1;
+}
+.boton:hover
+{
+  background-color: rgba(232, 132, 14, 0.83);
+	box-shadow: 0px 03px 5px rgb(232, 132, 14, 0.83);
+	padding-top: 7px;
+	color: #fff;
+}
+aside{
+	float: right;s
+	width: 30%;
+	text-align: justify;
+	margin-top: 0px;
+}
+blockquote
+{
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #180EF1;
+}
+footer
+{
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background-color:#180EF1;
+	margin-bottom:0px;
+	padding: 0px;
+	border-radius: 0px 0px 25px 25px; /*superior, derecho, inferior, izquierdo*/
+	border-style: none;
+}
+.izquierda
+{
+	float: left;
+}
+.derecha
+{
+	float: right;
+	padding-right: 20px;
+}
+footer>p
+{
+text-align: center;
+color: rgb(2, 74, 20);
+font-size: 10px;
+}
+.botonredes
+{
+display: inline-flex;
+width: 15px;
+height: 15px;
+padding: 10px;
+background-color:#F67C0A;
+border-radius: 100%;
+}
+.botonredes img
+{
+  width: 15px;
+  height: 15px;
+}
+.botonredes:hover
+{
+background-color:rgb(232, 132, 14, 0.83);
+border-radius: 100%;
+}
+.enlace-footer
+{
+  font-size: 20px;
+  color: WHITE;
+  padding-right: 5px;
+  text-decoration: none;
+}
+.enlace-footer:hover
+{
+  color: rgb(232, 132, 14, 0.83);
+  text-shadow: 0px 0px 5px rgb(42, 41, 42);
+  text-decoration: underline;
+}
+table
+{
+  width: 90%;
+  margin:auto;
+}
+th.titulo
+{
+	height: 50px;
+}
+td.center
+{
+	text-align: center;
+  vertical-align: middle;
+}
+td
+{
+  padding: 5px;s
+}
+tr:nth-child(odd)
+{
+  background-color:#180EF1;
+}
+tr:nth-child(even)
+{
+  background-color:rgba(224, 137, 34, 0.71);
+}
